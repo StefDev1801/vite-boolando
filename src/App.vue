@@ -1,11 +1,20 @@
 <script>
+import AppHeader from './components/AppHeader.vue';//importo il componente
+
 export default{
-  name: 'App'
+  name: 'App',
+  components: {
+    AppHeader: AppHeader//registro il componente
+  }
 }
 </script>
 
 <template>
-  <h1>Test</h1>
+
+
+  <AppHeader></AppHeader>
+
+
 </template>
 
 <style>
