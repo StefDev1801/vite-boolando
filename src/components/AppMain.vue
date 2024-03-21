@@ -1,11 +1,11 @@
 <script>
 
 export default {
-    name: 'AppHeader'//sempre bene dargli un nome
+    name: 'AppMain'//sempre bene dargli un nome
 }
 
 </script>
 <template>
-  <h1>Header</h1>
+  <h1>Main</h1>
 </template>
 <style></style>
